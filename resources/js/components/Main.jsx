@@ -4,20 +4,19 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import Header from './app/Header';
 import Sidebar from './app/Sidebar';
-import Content from './Content';
+// import Dashboard from './pages/Dashboard';
 import Footer from './app/Footer';
 
 function Main() {
     return (
-        // <BrowserRouter>
+
         <>
             <Header />
             <Sidebar />
-            <Content />
+            {/* <Dashboard /> */}
             <Footer />
         </>
-            
-        // </BrowserRouter>
+
     );
 }
 
